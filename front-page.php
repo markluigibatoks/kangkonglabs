@@ -26,7 +26,7 @@
             </div>
 
             <div class="lg:max-w-[394px] h-[300px] lg:h-[481px] relative lg:mt-[66px] order-1 lg:order-2">
-                <div class="lg:-z-10 absolute lg:bottom-0 lg:left-[unset] -right-[27px] lg:w-[155px] lg:h-[155px] w-28 h-28 lg:top-[calc(50% - 80px)] top-10 left-10 z-10 bg-tertiary overflow-hidden rounded-full blur-3xl"></div>
+                <div class="lg:-z-10 absolute lg:bottom-0 lg:left-[unset] -right-[27px] lg:w-[155px] lg:h-[155px] w-28 h-28 lg:top-[calc(50% - 80px)] top-10 left-10 z-10 bg-tertiary rounded-full blur-3xl"></div>
                 <div class="bg-white/70 z-20 left-10 top-10 lg:w-40 lg:h-40 w-28 h-28 bg-[rgba(242, 242, 242, 0.58)] rounded-full absolute lg:top-1/2 lg:left-[-80px] lg:-translate-y-1/2  backdrop-blur-xs">
                     <svg class="w-[inherit] h-[inherit]" width="160" height="160" viewBox="0 0 160 160" style="display:block;">
                         <!-- Outer circle with 22px padding from SVG edge, no outline -->
@@ -64,7 +64,7 @@
     <div class="wrapper">
         <div class="py-5 relative lg:pt-[56px] lg:pb-[116px] lg:pl-[469px]">
             <div class="max-w-[300px] relative top-0 lg:absolute left-0 lg:top-[165px] lg:max-w-[620px] w-full">
-                <div class="-z-10 absolute -bottom-[18px] right-[107px] w-[155px] h-[155px] bg-tertiary overflow-hidden rounded-full blur-3xl"></div>
+                <div class="-z-10 absolute -bottom-[18px] right-[107px] w-[155px] h-[155px] bg-tertiary rounded-full blur-3xl"></div>
                 <img src="<?php echo esc_url(get_template_directory_uri())?>/assets/images/main-image.png" alt="laptop and smartphone displaying a responsive website design"/>
             </div>
             <section class="faq">
@@ -169,7 +169,7 @@
                     </button>
                 </div>
 
-                <div class="hidden lg:block -z-10 absolute -top-5 -right-[23px] w-[155px] h-[155px] bg-tertiary overflow-hidden rounded-full blur-3xl"></div>
+                <div class="hidden lg:block -z-10 absolute -top-5 -right-[23px] w-[155px] h-[155px] bg-tertiary rounded-full blur-3xl"></div>
             </div>
         </div>
     </div>
@@ -186,7 +186,7 @@
                 <p><strong class="company-name">Kangkonglabs</strong> is a web design and development agency dedicated to pushing the boundaries of digital aesthetics and functionality.</p>
                 <a href="#" class="border border-solid border-white py-[10px] px-[23px] rounded-4xl no-underline text-white mt-8 inline-block hover:bg-white hover:text-black">Get Started <i class="fa-solid fa-arrow-right -rotate-45"></i></a> -->
 
-                <div class="-z-10 absolute -bottom-[56px] left-1/2 -translate-x-1/2 w-[293px] h-[293px] bg-tertiary overflow-hidden rounded-full blur-3xl"></div>
+                <div class="-z-10 absolute -bottom-[56px] left-1/2 -translate-x-1/2 w-[293px] h-[293px] bg-tertiary rounded-full blur-3xl"></div>
             </div>
         </div>
     </div>
