@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap");
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --font-unbounded: "Unbounded", sans-serif;
+    --font-public-sans: "Public Sans", sans-serif;
+    --color-primary: #5E5E5E;
+    --color-secondary: #2b2b2b;
+    --color-tertiary: #F0D50A;
+}
+
+@layer base {
+    body {
+        @apply font-public-sans;
+        @apply text-primary;
+        @apply bg-white;
+    }
+}
+
+@layer components {
+    .wrapper {
+        width: 100%;
+        max-width: 1156px;
+        margin: 0 auto;
+    }
+
+    .company-name {
+        font-weight: bold;
+    }
+
+    .coming-soon {
+        color: red;
+        font-weight: bold;
+    }
+
+    .current-menu-item a {
+        text-decoration: underline;
+        color: #F0D50A;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    #breadcrumbs strong {
+        font-weight: bold;
+    }
+}
